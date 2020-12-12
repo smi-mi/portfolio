@@ -11,13 +11,106 @@
 
 <body>
 <header>
-    <img id="my-photo" src="resources/my-face.jpg" alt="photo" width="10%">
-    <h1>Name</h1>
-    <p>description</p>
+    <img id="my-photo" src="resources/my-face.jpg" alt="my photo" width="15%">
+    <h1 id="my-name">Смирнова Мария</h1>
+    <p id="header-description">Студент третьего курса университета ИТМО факультета ИТиП</p>
+    <nav id="main-navigation">
+        <a class="nav-link" href="#about-me">Обо мне</a>
+        <a class="nav-link" href="#my-projects">Мои проекты</a>
+        <a class="nav-link" href="#work-experience">Опыт работы</a>
+    </nav>
 </header>
 
 <main>
-    <!-- TODO -->
+    <div id="main-content">
+        <section class="main-content-section" id="about-me">
+            <h2 id="about-me-header">Обо мне</h2>
+            <p id="about-me-paragraph">
+                <!-- TODO write about me -->
+            </p>
+        </section>
+
+        <section class="main-content-section" id="my-projects">
+            <h2>Проекты</h2>
+            <article id="best-project">
+                <div id="best-project-info">
+                    <h3 id="best-project-header">Название</h3>
+                    <img id="best-project-pic" src="" alt="best project pic">
+                    <p id="best-project-description">Описание</p>
+                </div>
+                <pre><code id="best-project-code">Код лучшего проекта</code></pre>
+            </article>
+            <hr class="divider">
+            <ul id="projects">
+                <li id="project-1">
+                    <h3 id="project-1-header">Название 1</h3>
+                    <img id="project-1-pic" src="" alt="project 1">
+                    <p id="project-1-description">Описание 1</p>
+                </li>
+                <!-- TODO more projects -->
+            </ul>
+            <a id="link-to-github" href="https://github.com/smi-mi">Смотреть все проекты</a>
+        </section>
+
+        <section class="main-content-section" id="work-experience">
+            <h2>Опыт работы</h2>
+            <ul>
+                <li>
+                    <h3>Компания</h3>
+                    <h4>Должность</h4>
+                    <time>Даты</time>
+                    <p>Описание</p>
+                </li>
+                <!-- TODO more works -->
+            </ul>
+        </section>
+    </div>
+
+    <aside id="main-sidebar">
+        <section id="education">Образование</section>
+        <section id="skills">
+            <section id="hard-skills">
+                <h3>Hard skills</h3>
+                <ul>
+                    <li>Прога)))</li>
+                    <!-- TODO more hard skills -->
+                </ul>
+            </section>
+            <hr class="divider">
+            <section id="soft-skills">
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>Енглиш</li>
+                    <!-- TODO more soft skills -->
+                </ul>
+            </section>
+        </section>
+        <section id="hobbies">
+            <h2>Хобби</h2>
+            <ul>
+                <li>Рисование</li>
+                <!-- TODO more hobbies -->
+            </ul>
+        </section>
+        <section id="motto-and-success-formula">
+            <blockquote>
+                <p>Девиз жизни</p>
+                <cite>Джейсон Стэтхем</cite>
+            </blockquote>
+            <p id="success-formula">Формула успеха</p>
+        </section>
+        <section id="plan">
+            <h2>Жизненные цели</h2>
+            <ul>
+                <li><del>Поступить в ВУЗ</del></li>
+                <!-- TODO more plans -->
+            </ul>
+        </section>
+        <section id="totem-animal">
+            <h2>Тотемное животное</h2>
+            <pre>Хомяк из ASCII</pre>
+        </section>
+    </aside>
 </main>
 
 <footer>
@@ -26,6 +119,13 @@
         <ul>
             <li>phone</li>
             <li>email</li>
+        </ul>
+    </div>
+    <div id="minor-navigation">
+        <ul>
+            <li><a href="#about-me">Обо мне</a></li>
+            <li><a href="#my-projects">Мои проекты</a></li>
+            <li><a href="#work-experience">Опыт работы</a></li>
         </ul>
     </div>
 </footer>

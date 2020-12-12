@@ -60,7 +60,7 @@
       <workItem from="1607540604960" duration="2050000" />
       <workItem from="1607779334235" duration="402000" />
       <workItem from="1607780027938" duration="1200000" />
-      <workItem from="1607801800440" duration="3843000" />
+      <workItem from="1607801800440" duration="8727000" />
     </task>
     <task id="LOCAL-00001" summary="added css file">
       <created>1607543691801</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607806678421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added my face pic">
+      <created>1607809538489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607809538489</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,17 +92,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added css file" />
     <MESSAGE value="added layout pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added layout pic" />
+    <MESSAGE value="added my face pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="added my face pic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607540792848">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1218.720@0.0.1218.720" timestamp="1607540792848" />
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1607806676849">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1607809538045">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1607806676849" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1607809538045" />
     <state x="90" y="0" key="SettingsEditor" timestamp="1607779823113">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
