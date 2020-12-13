@@ -13,7 +13,10 @@
 <header>
     <img id="my-photo" src="resources/my-face.jpg" alt="my photo" width="15%">
     <h1 id="my-name">Смирнова Мария</h1>
-    <p id="header-description">Студент третьего курса университета ИТМО факультета ИТиП</p>
+    <p id="header-description">
+        Студент третьего курса университета ИТМО факультета ИТиП.
+        Младший C++ разработчик, моделист.
+    </p>
     <nav id="main-navigation">
         <a class="nav-link" href="#about-me">Обо мне</a>
         <a class="nav-link" href="#projects">Проекты</a>
@@ -131,32 +134,99 @@ public enum DatabaseCommands {
             <h2>Опыт работы</h2>
             <ul>
                 <li>
-                    <h3>Компания</h3>
-                    <h4>Должность</h4>
-                    <time>Даты</time>
-                    <p>Описание</p>
+                    <a href="https://kronshtadt.ru/"><h3>ООО "Кронштадт - навигационые системы будущего"</h3></a>
+                    <h4>моделист</h4>
+                    <span>
+                        <time datetime="2020-08">август 2020</time>-<time>настоящее время</time>
+                    </span>
+                    <p>
+                        Разработка на C++/boost. Реализация утилитарных алгоритмов.
+                        Сериализация/десериализация XML.
+                    </p>
                 </li>
-                <!-- TODO more works -->
+                <li>
+                    <a href="http://sim-lab.ru/"><h3>ООО "Лаборатория компьютерного моделирования"</h3></a>
+                    <h4>младший инженер-разработчик</h4>
+                    <span>
+                        <time datetime="2020-02">февраль 2020</time>-<time datetime="2020-12">настоящее время</time>
+                    </span>
+                    <p>
+                        Разработка на C++/rest sdk.
+                        Исправление багов и реализация платформонезависимости.
+                        Реализация Rest API. Работа с ОС Linux и Windows.
+                    </p>
+                </li>
+                <li>
+                    <a href="https://spb.repetit.ru/"><h3>Ассоциация репетиторов</h3></a>
+                    <h4>репетитор по математике, физике, информатике</h4>
+                    <span>
+                        <time datetime="2019-02">февраль 2019</time>-<time datetime="2020-04">апрель 2020</time>
+                    </span>
+                    <p>
+                        Работы с детьми разного возраста и уровня на дому. Получены навыки
+                        общения и нахождения общего языка с людьми, а также навыки тайм-менеджмента.
+                        Тренировка дисциплины и обязательности.
+                    </p>
+                </li>
             </ul>
         </section>
     </div>
 
     <aside id="main-sidebar">
-        <section id="education">Образование</section>
+        <section id="education">
+            <h2>Образование</h2>
+            <ul>
+                <li>Университет ИТМО</li>
+                <li>Факультет информационных технологий и программирования</li>
+                <li>Направление информационные системы и интернет-технологии</li>
+                <li>Курс третий</li>
+            </ul>
+        </section>
         <section id="skills">
             <section id="hard-skills">
                 <h3>Hard skills</h3>
                 <ul>
-                    <li>Прога)))</li>
-                    <!-- TODO more hard skills -->
+                    <li>
+                        <h4>C++<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Java<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Python/Django<span class="level-label">Средний</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Администрирование Linux<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Математика<span class="level-label">Средний</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
                 </ul>
             </section>
             <hr class="divider">
             <section id="soft-skills">
                 <h3>Soft skills</h3>
                 <ul>
-                    <li>Енглиш</li>
-                    <!-- TODO more soft skills -->
+                    <li>
+                        <h4>Английский язык<span>B1+</span></h4>
+                    </li>
+                    <li>
+                        <h4>Эмоциональный интеллект<span>Высокий</span></h4>
+                    </li>
+                    <li>
+                        <h4>Тайм-менеджмент<span>Средний</span></h4>
+                    </li>
+                    <li>
+                        <h4>Командная работа<span>Выше среднего</span></h4>
+                    </li>
+                    <li>
+                        <h4>Гибкость и креативность<span>Выше среднего</span></h4>
+                    </li>
                 </ul>
             </section>
         </section>
@@ -164,42 +234,73 @@ public enum DatabaseCommands {
             <h2>Хобби</h2>
             <ul>
                 <li>Рисование</li>
-                <!-- TODO more hobbies -->
+                <li>Шитьё и рукоделие</li>
+                <li>Настольный теннис</li>
+                <li>Шахматы</li>
+                <li>Психология</li>
             </ul>
         </section>
-        <section id="motto-and-success-formula">
-            <blockquote>
-                <p>Девиз жизни</p>
-                <cite>Джейсон Стэтхем</cite>
-            </blockquote>
-            <p id="success-formula">Формула успеха</p>
+        <section id="qoute-and-success-formula">
+            <section>
+                <h3>Любимая цитата</h3>
+                <blockquote>
+                    <p>Если судьба преподносит тебе лимон, сделай из него лимонад.</p>
+                    <cite>Дейл Карнеги</cite>
+                </blockquote>
+            </section>
+            <hr class="divider">
+            <section>
+                <h3>Формула успеха</h3>
+                <p id="success-formula">
+                    0.99<sup>365</sup>=0.026<br>
+                    1.01<sup>365</sup>=37.78
+                </p>
+            </section>
         </section>
         <section id="plan">
             <h2>Жизненные цели</h2>
             <ul>
-                <li><del>Поступить в ВУЗ</del></li>
-                <!-- TODO more plans -->
+                <li><del datetime="2018-06">Окончить школу</del></li>
+                <li><del datetime="2018-09">Поступить в ВУЗ</del></li>
+                <li>Окончить ВУЗ</li>
+                <li><del datetime="2020-02">Устроиться на работу</del></li>
+                <li><ins datetime="2020-09">Освоить кройку и шитьё</ins></li>
             </ul>
         </section>
         <section id="totem-animal">
-            <h2>Тотемное животное</h2>
-            <pre>Хомяк из ASCII</pre>
+            <h2>Тотемное животное - хомяк</h2>
+            <pre>
+     (`-`;-"```"-;`-`)
+      \.*         *./
+     /              \
+     ;    0     0    ;
+    /|  =         =  |\
+   ; \    *._Y_.*   /  ;
+  ;   `-_   \|/   _'    ;
+ ;       *- ... -*       ;
+ ;    `""-.     .-""`    ;
+ /;   `-.  \   /  .-`   ;\
+:  `.    ```   ```    .`  :
+ `.   `-.          .-`  .`
+   (__.'  ```````` `.__)
+            </pre>
         </section>
     </aside>
 </main>
 
 <footer>
     <div id="contacts">
-        <h4>Contact me</h4>
+        <h4>Контакты</h4>
         <ul>
-            <li>phone</li>
-            <li>email</li>
+            <li class="phone">+7(921)763-71-38</li>
+            <li class="email">smimi_00@mail.ru</li>
+            <li class="vk">https://vk.com/smi_mi</li>
         </ul>
     </div>
     <div id="minor-navigation">
         <ul>
             <li><a href="#about-me">Обо мне</a></li>
-            <li><a href="#projects">Мои проекты</a></li>
+            <li><a href="#projects">Проекты</a></li>
             <li><a href="#work-experience">Опыт работы</a></li>
         </ul>
     </div>
