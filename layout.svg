@@ -33,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-184.31022"
-     inkscape:cy="573.25321"
+     inkscape:zoom="1.979899"
+     inkscape:cx="290.33123"
+     inkscape:cy="521.24004"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -236,59 +236,59 @@
          x="70.247162"
          y="107.56406"
          style="stroke-width:0.26685917">Мои проекты</tspan></text>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.39753744;stroke-miterlimit:4;stroke-dasharray:0.39753745, 1.59014981;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect925"
+       width="35.052372"
+       height="41.606819"
+       x="30.665779"
+       y="125.19584" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.25366497px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26585406"
+       x="36.582512"
+       y="119.10758"
+       id="text919"
+       transform="scale(0.91269536,1.0956558)"><tspan
+         sodipodi:role="line"
+         id="tspan917"
+         x="36.582512"
+         y="119.10758"
+         style="stroke-width:0.26585406">Название</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.67419553px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22963722"
+       x="31.64724"
+       y="162.80588"
+       id="text929"
+       transform="scale(1.052752,0.94989135)"><tspan
+         sodipodi:role="line"
+         id="tspan927"
+         x="31.64724"
+         y="162.80588"
+         style="stroke-width:0.22963722">описание</tspan></text>
     <g
-       id="g936"
-       transform="matrix(1.1766907,0,0,0.97576663,-5.6241237,4.2764034)">
+       id="g1080"
+       transform="translate(-0.26726953,4.8108515)">
       <rect
-         y="123.92249"
-         x="30.840647"
-         height="42.640133"
-         width="29.788942"
-         id="rect925"
-         style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.37099999;stroke-miterlimit:4;stroke-dasharray:0.371, 1.484;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         transform="scale(0.83112753,1.2031848)"
-         id="text919"
-         y="107.51409"
-         x="39.891216"
-         style="font-style:normal;font-weight:normal;font-size:3.96971321px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24810708"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.24810708"
-           y="107.51409"
-           x="39.891216"
-           id="tspan917"
-           sodipodi:role="line">Название</tspan></text>
-      <text
-         transform="scale(0.95866725,1.0431148)"
-         id="text929"
-         y="147.73637"
-         x="34.520325"
-         style="font-style:normal;font-weight:normal;font-size:3.42892623px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21430789"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.21430789"
-           y="147.73637"
-           x="34.520325"
-           id="tspan927"
-           sodipodi:role="line">описание</tspan></text>
-      <rect
-         style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.35526609;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.38067812;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect944"
-         width="26.571039"
-         height="11.707794"
-         x="32.570053"
-         y="131.88275" />
+         width="31.265894"
+         height="11.424075"
+         x="32.700756"
+         y="132.9632" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.18810368px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13675648"
-         x="50.432011"
-         y="112.92134"
+         style="font-style:normal;font-weight:normal;font-size:2.34461761px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1465386"
+         x="47.75317"
+         y="124.82454"
          id="text948"
-         transform="scale(0.81471798,1.2274186)"><tspan
+         transform="scale(0.89467537,1.1177239)"><tspan
            sodipodi:role="line"
            id="tspan946"
-           x="50.432011"
-           y="112.92134"
-           style="stroke-width:0.13675648">картинка</tspan></text>
+           x="47.75317"
+           y="124.82454"
+           style="stroke-width:0.1465386">картинка</tspan></text>
     </g>
     <rect
        style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.37328321;stroke-miterlimit:4;stroke-dasharray:0.3732832, 1.49313287;stroke-dashoffset:0;stroke-opacity:1"
@@ -309,30 +309,30 @@
          y="146.56548"
          style="stroke-width:0.26458332">пример кода</tspan></text>
     <rect
-       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.28179154;stroke-miterlimit:4;stroke-dasharray:0.28179151, 1.12716604;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.31327218;stroke-miterlimit:4;stroke-dasharray:0.31327214, 1.25308858;stroke-dashoffset:0;stroke-opacity:1"
        id="rect950"
-       width="90.971565"
-       height="12.871768"
-       x="30.588896"
-       y="171.81941" />
+       width="90.940086"
+       height="15.913887"
+       x="30.604635"
+       y="171.83516" />
     <rect
-       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.41413811;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.46434841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect952"
-       width="17.154778"
-       height="9.0282898"
-       x="32.338531"
-       y="173.61235" />
+       width="17.104567"
+       height="11.383505"
+       x="32.363636"
+       y="173.63745" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.11886263px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13242891"
-       x="39.777077"
-       y="159.11089"
+       x="40.37561"
+       y="160.30435"
        id="text956"
        transform="scale(0.89308256,1.1197173)"><tspan
          sodipodi:role="line"
          id="tspan954"
-         x="39.777077"
-         y="159.11089"
+         x="40.37561"
+         y="160.30435"
          style="stroke-width:0.13242891">картинка</tspan></text>
     <text
        xml:space="preserve"
@@ -347,16 +347,16 @@
          style="stroke-width:0.26458332">Название</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.12945938px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13309121"
-       x="64.161446"
-       y="146.7531"
+       style="font-style:normal;font-weight:normal;font-size:3.15525246px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19720328"
+       x="72.386482"
+       y="137.05089"
        id="text964"
-       transform="scale(0.81638311,1.2249151)"><tspan
+       transform="scale(0.74533526,1.3416781)"><tspan
          sodipodi:role="line"
          id="tspan962"
-         x="64.161446"
-         y="146.7531"
-         style="stroke-width:0.13309121">описание</tspan></text>
+         x="72.386482"
+         y="137.05089"
+         style="stroke-width:0.19720328">описание</tspan></text>
     <g
        id="g992"
        transform="translate(9.4494048,-0.66145825)">
@@ -770,5 +770,29 @@
          y="236.81062"
          style="stroke-width:0.26458332"
          id="tspan1337">животное</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.3514812px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20946757"
+       x="34.980755"
+       y="127.07788"
+       id="text1085"
+       transform="scale(0.94756623,1.0553352)"><tspan
+         sodipodi:role="line"
+         id="tspan1083"
+         x="34.980755"
+         y="127.07788"
+         style="stroke-width:0.20946757">технологии</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.87954831px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17997177"
+       x="58.870052"
+       y="155.9955"
+       id="text1085-5"
+       transform="scale(0.87132196,1.1476814)"><tspan
+         sodipodi:role="line"
+         id="tspan1083-7"
+         x="58.870052"
+         y="155.9955"
+         style="stroke-width:0.17997177">технологии</tspan></text>
   </g>
 </svg>
