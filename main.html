@@ -1,35 +1,310 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="резюме,программист,портфолио,смирнова,мария,итмо">
+    <meta name="description" content="Портфолио студента ИТМО, Смирновой Марии">
     <link href="css/outlines.css" rel="stylesheet">
     <title>Смирнова Мария - M33011</title>
 </head>
+
 <body>
 <header>
-    <img src="" alt="photo">
-    <h1>Name</h1>
-    <p>description</p>
+    <img id="my-photo" src="resources/my-face.jpg" alt="my photo" width="15%">
+    <h1 id="my-name">Смирнова Мария</h1>
+    <p id="header-description">
+        Студент третьего курса университета ИТМО факультета ИТиП.
+        Младший C++ разработчик, моделист.
+    </p>
+    <nav id="main-navigation">
+        <a class="nav-link" href="#about-me">Обо мне</a>
+        <a class="nav-link" href="#projects">Проекты</a>
+        <a class="nav-link" href="#work-experience">Опыт работы</a>
+    </nav>
 </header>
+
 <main>
-    <!-- TODO -->
+    <div id="main-content">
+        <section class="main-content-section" id="about-me">
+            <h2 id="about-me-header">Обо мне</h2>
+            <p id="about-me-paragraph">
+                Работающий студент. Проживаю в <strong>Санкт-Петербурге</strong>.
+                По окончании обучения готова переехать в маленький, тихий город,
+                <em>например на берегу моря</em>.
+                Люблю математику, зиму и котиков.
+            </p>
+            <h3>Мои качества</h3>
+            <dl>
+                <dt>Любознательность</dt>
+                <dd>Открыта ко всему новому. Гибко подстраиваюсь под требования проекта.</dd>
+                <dt>Работа в команде</dt>
+                <dd>Умею работать в команде. Уважаю коллег, их время и точку зрения.</dd>
+                <dt>Инициативность</dt>
+                <dd>Погружаюсь с проект с головой. Предлагаю свои идеи для улучшения.</dd>
+            </dl>
+        </section>
+
+        <section class="main-content-section" id="projects">
+            <h2>Проекты</h2>
+            <article id="best-project">
+                <div id="best-project-info">
+                    <a href="https://github.com/smi-mi/task8-database-server">
+                        <h3 id="best-project-header">Сервер СУБД</h3>
+                    </a>
+                    <h4>Java</h4>
+                    <img id="best-project-pic" src="resources/projects/database-server.jpg" alt="best project pic" width="25%">
+                    <p id="best-project-description">
+                        Key-value хранилище, реализованное как append-only журнал.
+                        Ключевые особенности: <i>индекс БД</i>, <i>кеширование</i>.
+                        Проект соответствует принципам ООП.
+                        Применяемые паттерны: <i>фабрика</i>, <i>декоратор</i>,
+                        <i>команда</i>, <i>цепочка обязанностей</i>.
+                    </p>
+                </div>
+                <pre><code id="best-project-code">
+public enum DatabaseCommands {
+
+    CREATE_DATABASE {
+        public DatabaseCommand getCommand
+                (ExecutionEnvironment env, String... args)
+        {
+            if (args.length < 2) {
+                throw new IllegalArgumentException
+                    ("For CREATE_DATABASE command at least one arguments required: database name.");
+            }
+            return new CreateDatabaseCommand(env, DatabaseImpl::create, args[1]);
+        }
+    },
+    ...
+}
+                </code></pre>
+            </article>
+
+            <hr class="divider">
+
+            <ul id="other-projects">
+                <li id="project-1">
+                    <a href="https://github.com/smi-mi/dj-homeworks">
+                        <h3 id="project-1-header">Коллекция проектов</h3>
+                    </a>
+                    <h4>Python/Django</h4>
+                    <img id="project-1-pic" src="resources/projects/python-django.jpg" alt="project-1" width="25%">
+                    <p id="project-1-description">
+                        Проекты, выполненные в ходе изучения python/django.
+                        Во всех проектах серверный рендеринг.
+                        Использование динамических шаблонов, форм, class-based view.
+                        Работа с базами данных, сессиями и cookie.
+                        Реализация регистрации и авторизации с валидацией данных.
+                        Настройка страницы админа.
+                    </p>
+                </li>
+                <li id="project-2">
+                    <a href="">
+                        <h3 id="project-2-header">Rest API сервис</h3>
+                    </a>
+                    <h4>Java/Spring Boot</h4>
+                    <img id="project-2-pic" src="resources/projects/restapi.png" alt="project-2" width="25%">
+                    <p id="project-2-description">
+                        Проект с учебной практики после второго курса.
+                        RestAPI сервис с возможностью сохранения и получения персональных
+                        данных пользователя, а также для изменения статуса пользователя и
+                        получения статистики сервера об изменениях после определенного времени.
+                        Проект задокументирован с помощью <i>swagger</i>.
+                    </p>
+                </li>
+                <li id="project-3">
+                    <a href="https://github.com/smi-mi/OOP">
+                        <h3 id="project-3-header">Игра по типу Heroes of Might and Magic</h3>
+                    </a>
+                    <h4>С++</h4>
+                    <img id="project-3-pic" src="resources/projects/homm-game.jpg" alt="project-3" width="25%">
+                    <p id="project-3-description">
+                        Реализация части игры - сражения.
+                        Тестовый интерфейс <i>консольный</i>.
+                        Проект представляет собой <i>dll-библиотеку</i>.
+                        Может быть расширен с помощью добавления новых персонажей.
+                    </p>
+                </li>
+            </ul>
+            <a id="link-to-github" href="https://github.com/smi-mi">Смотреть все проекты</a>
+        </section>
+
+        <section class="main-content-section" id="work-experience">
+            <h2>Опыт работы</h2>
+            <ul>
+                <li>
+                    <a href="https://kronshtadt.ru/"><h3>ООО "Кронштадт - навигационые системы будущего"</h3></a>
+                    <h4>моделист</h4>
+                    <span>
+                        <time datetime="2020-08">август 2020</time>-<time>настоящее время</time>
+                    </span>
+                    <p>
+                        Разработка на C++/boost. Реализация утилитарных алгоритмов.
+                        Сериализация/десериализация XML.
+                    </p>
+                </li>
+                <li>
+                    <a href="http://sim-lab.ru/"><h3>ООО "Лаборатория компьютерного моделирования"</h3></a>
+                    <h4>младший инженер-разработчик</h4>
+                    <span>
+                        <time datetime="2020-02">февраль 2020</time>-<time datetime="2020-12">настоящее время</time>
+                    </span>
+                    <p>
+                        Разработка на C++/rest sdk.
+                        Исправление багов и реализация платформонезависимости.
+                        Реализация Rest API. Работа с ОС Linux и Windows.
+                    </p>
+                </li>
+                <li>
+                    <a href="https://spb.repetit.ru/"><h3>Ассоциация репетиторов</h3></a>
+                    <h4>репетитор по математике, физике, информатике</h4>
+                    <span>
+                        <time datetime="2019-02">февраль 2019</time>-<time datetime="2020-04">апрель 2020</time>
+                    </span>
+                    <p>
+                        Работы с детьми разного возраста и уровня на дому. Получены навыки
+                        общения и нахождения общего языка с людьми, а также навыки тайм-менеджмента.
+                        Тренировка дисциплины и обязательности.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <aside id="main-sidebar">
+        <section id="education">
+            <h2>Образование</h2>
+            <ul>
+                <li>Университет ИТМО</li>
+                <li>Факультет информационных технологий и программирования</li>
+                <li>Направление информационные системы и интернет-технологии</li>
+                <li>Курс третий</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <section id="hard-skills">
+                <h3>Hard skills</h3>
+                <ul>
+                    <li>
+                        <h4>C++<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Java<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Python/Django<span class="level-label">Средний</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Администрирование Linux<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                    <li>
+                        <h4>Математика<span class="level-label">Средний</span></h4>
+                        <div class="level-bar"></div>
+                    </li>
+                </ul>
+            </section>
+            <hr class="divider">
+            <section id="soft-skills">
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>
+                        <h4>Английский язык<span>B1+</span></h4>
+                    </li>
+                    <li>
+                        <h4>Эмоциональный интеллект<span>Высокий</span></h4>
+                    </li>
+                    <li>
+                        <h4>Тайм-менеджмент<span>Средний</span></h4>
+                    </li>
+                    <li>
+                        <h4>Командная работа<span>Выше среднего</span></h4>
+                    </li>
+                    <li>
+                        <h4>Гибкость и креативность<span>Выше среднего</span></h4>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section id="hobbies">
+            <h2>Хобби</h2>
+            <ul>
+                <li>Рисование</li>
+                <li>Шитьё и рукоделие</li>
+                <li>Настольный теннис</li>
+                <li>Шахматы</li>
+                <li>Психология</li>
+            </ul>
+        </section>
+        <section id="qoute-and-success-formula">
+            <section>
+                <h3>Любимая цитата</h3>
+                <blockquote>
+                    <p>Если судьба преподносит тебе лимон, сделай из него лимонад.</p>
+                    <cite>Дейл Карнеги</cite>
+                </blockquote>
+            </section>
+            <hr class="divider">
+            <section>
+                <h3>Формула успеха</h3>
+                <p id="success-formula">
+                    0.99<sup>365</sup>=0.026<br>
+                    1.01<sup>365</sup>=37.78
+                </p>
+            </section>
+        </section>
+        <section id="plan">
+            <h2>Жизненные цели</h2>
+            <ul>
+                <li><del datetime="2018-06">Окончить школу</del></li>
+                <li><del datetime="2018-09">Поступить в ВУЗ</del></li>
+                <li>Окончить ВУЗ</li>
+                <li><del datetime="2020-02">Устроиться на работу</del></li>
+                <li><ins datetime="2020-09">Освоить кройку и шитьё</ins></li>
+            </ul>
+        </section>
+        <section id="totem-animal">
+            <h2>Тотемное животное - хомяк</h2>
+            <pre>
+     (`-`;-"```"-;`-`)
+      \.*         *./
+     /              \
+     ;    0     0    ;
+    /|  =         =  |\
+   ; \    *._Y_.*   /  ;
+  ;   `-_   \|/   _'    ;
+ ;       *- ... -*       ;
+ ;    `""-.     .-""`    ;
+ /;   `-.  \   /  .-`   ;\
+:  `.    ```   ```    .`  :
+ `.   `-.          .-`  .`
+   (__.'  ```````` `.__)
+            </pre>
+        </section>
+    </aside>
 </main>
+
 <footer>
-    <div>
-        <h4>Contact me</h4>
+    <div id="contacts">
+        <h4>Контакты</h4>
         <ul>
-            <li>phone</li>
-            <li>email</li>
+            <li class="phone">+7(921)763-71-38</li>
+            <li class="email">smimi_00@mail.ru</li>
+            <li class="vk">https://vk.com/smi_mi</li>
         </ul>
     </div>
-    <div>
-        <h4>Follow me</h4>
+    <div id="minor-navigation">
         <ul>
-            <li><a><img src="" alt="vk"></a></li>
-            <li><a><img src="" alt="inst"></a></li>
-            <li><a><img src="" alt="github"></a></li>
+            <li><a href="#about-me">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#work-experience">Опыт работы</a></li>
         </ul>
     </div>
 </footer>
 </body>
+
 </html>

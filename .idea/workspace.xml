@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4079a2e-e5b2-492a-b02f-9a9617e46fa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
@@ -19,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -37,10 +41,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/task8-database-server-smi-mi" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,17 +57,97 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607540603624</updated>
-      <workItem from="1607540604960" duration="1754000" />
+      <workItem from="1607540604960" duration="2050000" />
+      <workItem from="1607779334235" duration="402000" />
+      <workItem from="1607780027938" duration="1200000" />
+      <workItem from="1607801800440" duration="8817000" />
+      <workItem from="1607854040842" duration="17191000" />
     </task>
+    <task id="LOCAL-00001" summary="added css file">
+      <created>1607543691801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607543691801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added layout pic">
+      <created>1607806678421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607806678421</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added my face pic">
+      <created>1607809538489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607809538489</updated>
+    </task>
+    <task id="LOCAL-00004" summary="made page skeleton">
+      <created>1607814776260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607814776260</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added info about projects">
+      <created>1607865443780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607865443780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added css file" />
+    <MESSAGE value="added layout pic" />
+    <MESSAGE value="added my face pic" />
+    <MESSAGE value="made page skeleton" />
+    <MESSAGE value="added info about projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added info about projects" />
   </component>
   <component name="WindowStateProjectService">
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607540792848">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1218.720@0.0.1218.720" timestamp="1607540792848" />
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1607865442631">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1607865442631" />
+    <state x="390" y="119" key="FileChooserDialogImpl" timestamp="1607861836327">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="390" y="119" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1607861836327" />
+    <state x="90" y="0" key="SettingsEditor" timestamp="1607855338766">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1607855338766" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1607814805317">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1607814805317" />
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1607854049503">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1607854049503" />
+    <state x="347" y="152" key="git4idea.merge.GitPullDialog" timestamp="1607543729507">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="347" y="152" key="git4idea.merge.GitPullDialog/0.0.1218.720@0.0.1218.720" timestamp="1607543729507" />
+    <state x="266" y="161" key="run.anything.popup" timestamp="1607807925882">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1607807925882" />
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1607871597587">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1607871597587" />
   </component>
 </project>

@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="layout.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="288.7738 : 193.10119 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="583.44047 : 232.41072 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective893" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="290.33123"
+     inkscape:cy="521.24004"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1827"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.31648839;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815"
+       width="147.75955"
+       height="231.59863"
+       x="25.511082"
+       y="43.632046" />
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.34706402;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817"
+       width="147.71275"
+       height="47.862541"
+       x="25.534481"
+       y="43.655445" />
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.36913192;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819"
+       width="147.7758"
+       height="23.535978"
+       x="25.494835"
+       y="251.69472" />
+    <circle
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path823"
+       cx="43.56493"
+       cy="61.535534"
+       r="15" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="32.874149"
+       y="63.673702"
+       id="text827"><tspan
+         sodipodi:role="line"
+         x="32.874149"
+         y="63.673702"
+         style="stroke-width:0.26458332"
+         id="tspan829">Моё фото</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.44734335px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40295896"
+       x="69.089165"
+       y="49.241684"
+       id="text835"
+       transform="scale(0.91162306,1.0969446)"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="69.089165"
+         y="49.241684"
+         style="stroke-width:0.40295896">Смирнова Мария</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="68.955536"
+       y="65.544586"
+       id="text839"><tspan
+         sodipodi:role="line"
+         id="tspan837"
+         x="68.955536"
+         y="65.544586"
+         style="stroke-width:0.26458332">краткое описание</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.25692225px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26605764"
+       x="43.851265"
+       y="258.07236"
+       id="text843"
+       transform="scale(1.0055722,0.99445869)"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="43.851265"
+         y="258.07236"
+         style="stroke-width:0.26605764">Контакты</tspan><tspan
+         sodipodi:role="line"
+         x="43.851265"
+         y="263.39352"
+         style="stroke-width:0.26605764"
+         id="tspan845">* телефон</tspan><tspan
+         sodipodi:role="line"
+         x="43.851265"
+         y="268.71466"
+         style="stroke-width:0.26605764"
+         id="tspan847">* эл. почта</tspan><tspan
+         sodipodi:role="line"
+         x="43.851265"
+         y="274.03583"
+         style="stroke-width:0.26605764"
+         id="tspan849">* вк</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="103.70058"
+       y="256.10779"
+       id="text853"><tspan
+         sodipodi:role="line"
+         id="tspan851"
+         x="103.70058"
+         y="256.10779"
+         style="stroke-width:0.26458332">Еще разок навигация</tspan><tspan
+         sodipodi:role="line"
+         x="103.70058"
+         y="261.39944"
+         style="stroke-width:0.26458332"
+         id="tspan855">* обо мне</tspan><tspan
+         sodipodi:role="line"
+         x="103.70058"
+         y="266.69113"
+         style="stroke-width:0.26458332"
+         id="tspan857">* проекты</tspan><tspan
+         sodipodi:role="line"
+         x="103.70058"
+         y="271.98279"
+         style="stroke-width:0.26458332"
+         id="tspan861">*опыт работы</tspan></text>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.20934267;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect865"
+       width="147.70988"
+       height="10.541229"
+       x="25.537342"
+       y="80.976761" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.15607357px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3222546"
+       x="69.305428"
+       y="85.235909"
+       id="text871"
+       transform="scale(0.97198826,1.028819)"><tspan
+         sodipodi:role="line"
+         id="tspan869"
+         x="69.305428"
+         y="85.235909"
+         style="stroke-width:0.3222546">навигация по странице</tspan></text>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.23700264;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect875"
+       width="96.263"
+       height="17.168245"
+       x="27.618326"
+       y="96.816879" />
+    <text
+       transform="scale(0.94359068,1.0597816)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.5752902px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28595564"
+       x="69.282227"
+       y="95.502411"
+       id="text879"><tspan
+         sodipodi:role="line"
+         id="tspan877"
+         x="69.282227"
+         y="95.502411"
+         style="stroke-width:0.28595564">Обо мне</tspan></text>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.3110545;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect891"
+       width="96.14624"
+       height="89.036392"
+       x="27.676876"
+       y="116.9465" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 29.597558,169.31268 92.203582,-0.0977"
+       id="path911"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.26974678px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26685917"
+       x="70.247162"
+       y="107.56406"
+       id="text915"
+       transform="scale(0.88142528,1.1345261)"><tspan
+         sodipodi:role="line"
+         id="tspan913"
+         x="70.247162"
+         y="107.56406"
+         style="stroke-width:0.26685917">Мои проекты</tspan></text>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.39753744;stroke-miterlimit:4;stroke-dasharray:0.39753745, 1.59014981;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect925"
+       width="35.052372"
+       height="41.606819"
+       x="30.665779"
+       y="125.19584" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.25366497px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26585406"
+       x="36.582512"
+       y="119.10758"
+       id="text919"
+       transform="scale(0.91269536,1.0956558)"><tspan
+         sodipodi:role="line"
+         id="tspan917"
+         x="36.582512"
+         y="119.10758"
+         style="stroke-width:0.26585406">Название</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.67419553px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22963722"
+       x="31.64724"
+       y="162.80588"
+       id="text929"
+       transform="scale(1.052752,0.94989135)"><tspan
+         sodipodi:role="line"
+         id="tspan927"
+         x="31.64724"
+         y="162.80588"
+         style="stroke-width:0.22963722">описание</tspan></text>
+    <g
+       id="g1080"
+       transform="translate(-0.26726953,4.8108515)">
+      <rect
+         style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.38067812;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect944"
+         width="31.265894"
+         height="11.424075"
+         x="32.700756"
+         y="132.9632" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.34461761px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1465386"
+         x="47.75317"
+         y="124.82454"
+         id="text948"
+         transform="scale(0.89467537,1.1177239)"><tspan
+           sodipodi:role="line"
+           id="tspan946"
+           x="47.75317"
+           y="124.82454"
+           style="stroke-width:0.1465386">картинка</tspan></text>
+    </g>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.37328321;stroke-miterlimit:4;stroke-dasharray:0.3732832, 1.49313287;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect938"
+       width="52.801201"
+       height="41.607533"
+       x="68.809174"
+       y="125.1983" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="81.448311"
+       y="146.56548"
+       id="text942"><tspan
+         sodipodi:role="line"
+         id="tspan940"
+         x="81.448311"
+         y="146.56548"
+         style="stroke-width:0.26458332">пример кода</tspan></text>
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.31327218;stroke-miterlimit:4;stroke-dasharray:0.31327214, 1.25308858;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect950"
+       width="90.940086"
+       height="15.913887"
+       x="30.604635"
+       y="171.83516" />
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.46434841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect952"
+       width="17.104567"
+       height="11.383505"
+       x="32.363636"
+       y="173.63745" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11886263px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13242891"
+       x="40.37561"
+       y="160.30435"
+       id="text956"
+       transform="scale(0.89308256,1.1197173)"><tspan
+         sodipodi:role="line"
+         id="tspan954"
+         x="40.37561"
+         y="160.30435"
+         style="stroke-width:0.13242891">картинка</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="51.182114"
+       y="176.39462"
+       id="text960"><tspan
+         sodipodi:role="line"
+         id="tspan958"
+         x="51.182114"
+         y="176.39462"
+         style="stroke-width:0.26458332">Название</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.15525246px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19720328"
+       x="72.386482"
+       y="137.05089"
+       id="text964"
+       transform="scale(0.74533526,1.3416781)"><tspan
+         sodipodi:role="line"
+         id="tspan962"
+         x="72.386482"
+         y="137.05089"
+         style="stroke-width:0.19720328">описание</tspan></text>
+    <g
+       id="g992"
+       transform="translate(9.4494048,-0.66145825)">
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="61.685501"
+         id="path966"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="64.685501"
+         id="path966-2"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="67.685501"
+         id="path966-9"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.28497928;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect994"
+       width="95.900604"
+       height="40.271355"
+       x="27.958155"
+       y="208.15675" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.58627272px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28664204"
+       x="61.890297"
+       y="207.27943"
+       id="text998"
+       transform="scale(0.97118666,1.0296682)"><tspan
+         sodipodi:role="line"
+         id="tspan996"
+         x="61.890297"
+         y="207.27943"
+         style="stroke-width:0.28664204">Опыт работы</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.33385462;stroke-miterlimit:4;stroke-dasharray:0.33385461, 1.33541842;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1003"
+       width="90.897957"
+       height="16.32745"
+       x="30.625523"
+       y="216.70456" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.39706087px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2123163"
+       x="32.102028"
+       y="219.82274"
+       id="text1007"
+       transform="scale(0.99755463,1.0024514)"><tspan
+         sodipodi:role="line"
+         id="tspan1005"
+         x="32.102028"
+         y="219.82274"
+         style="stroke-width:0.2123163">Компания</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.68783498px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16798969"
+       x="34.267307"
+       y="215.71701"
+       id="text1011"
+       transform="scale(0.96811175,1.0329386)"><tspan
+         sodipodi:role="line"
+         id="tspan1009"
+         x="34.267307"
+         y="215.71701"
+         style="stroke-width:0.16798969">должность</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.99946904px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18746682"
+       x="112.12305"
+       y="219.07707"
+       id="text1015"
+       transform="scale(0.99451866,1.0055115)"><tspan
+         sodipodi:role="line"
+         id="tspan1013"
+         x="112.12305"
+         y="219.07707"
+         style="stroke-width:0.18746682">даты</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.9806838px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24879274"
+       x="59.799118"
+       y="243.76083"
+       id="text1019"
+       transform="scale(1.0634688,0.94031904)"><tspan
+         sodipodi:role="line"
+         id="tspan1017"
+         x="59.799118"
+         y="243.76083"
+         style="stroke-width:0.24879274">описание</tspan></text>
+    <g
+       id="g992-2"
+       transform="matrix(1,0,0,0.8841999,8.6929989,69.874297)">
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="61.685501"
+         id="path966-98"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="64.685501"
+         id="path966-2-6"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="67.685501"
+         id="path966-9-7"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.22997981;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1045"
+       width="43.77002"
+       height="13.093966"
+       x="127.11501"
+       y="96.81282" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="135.50565"
+       y="105.23412"
+       id="text1049"><tspan
+         sodipodi:role="line"
+         id="tspan1047"
+         x="135.50565"
+         y="105.23412"
+         style="stroke-width:0.26458332">образование</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1051"
+       width="43.569031"
+       height="41.720638"
+       x="127.31008"
+       y="112.42506" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1954917;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 129.08761,135.76649 38.92761,-0.0983"
+       id="path911-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="137.20387"
+       y="117.15324"
+       id="text1070"><tspan
+         sodipodi:role="line"
+         id="tspan1068"
+         x="137.20387"
+         y="117.15324"
+         style="stroke-width:0.26458332">Hard skills</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="138.44572"
+       y="141.05605"
+       id="text1074"><tspan
+         sodipodi:role="line"
+         id="tspan1072"
+         x="138.44572"
+         y="141.05605"
+         style="stroke-width:0.26458332">Soft skills</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.32603195;stroke-miterlimit:4;stroke-dasharray:0.32603196, 1.30412786;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1080"
+       width="40.867798"
+       height="7.1923966"
+       x="128.79738"
+       y="119.30334" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.93885589px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18367849"
+       x="126.33779"
+       y="126.18923"
+       id="text1084"
+       transform="scale(1.0310988,0.96983916)"><tspan
+         sodipodi:role="line"
+         id="tspan1082"
+         x="126.33779"
+         y="126.18923"
+         style="stroke-width:0.18367849">Skill</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.85832977px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17864561"
+       x="113.33482"
+       y="149.34634"
+       id="text1088"
+       transform="scale(1.1953392,0.83658262)"><tspan
+         sodipodi:role="line"
+         id="tspan1086"
+         x="113.33482"
+         y="149.34634"
+         style="stroke-width:0.17864561">шкала уровня</tspan></text>
+    <g
+       id="g992-0"
+       transform="translate(83.74369,-61.461416)">
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="61.685501"
+         id="path966-7"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="64.685501"
+         id="path966-2-2"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="67.685501"
+         id="path966-9-2"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.97200608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18575038"
+       x="125.96777"
+       y="152.72603"
+       id="text1116"
+       transform="scale(1.0427296,0.9590214)"><tspan
+         sodipodi:role="line"
+         id="tspan1114"
+         x="125.96777"
+         y="152.72603"
+         style="stroke-width:0.18575038">Skill</tspan></text>
+    <g
+       id="g992-0-3"
+       transform="translate(83.743603,-42.9412)">
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="61.685501"
+         id="path966-7-4"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="64.685501"
+         id="path966-2-2-9"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="0.5"
+         cy="193.3145"
+         cx="67.685501"
+         id="path966-9-2-5"
+         style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1292"
+       transform="translate(0,-9.6198666)">
+      <rect
+         y="166.60039"
+         x="127.12088"
+         height="20.066767"
+         width="43.758244"
+         id="rect1142"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.24878114;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text1146"
+         y="172.118"
+         x="141.40224"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="172.118"
+           x="141.40224"
+           id="tspan1144"
+           sodipodi:role="line">Хобби</tspan></text>
+      <g
+         transform="translate(83.648999,-10.438587)"
+         id="g992-0-3-0">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path966-7-4-8"
+           cx="61.685501"
+           cy="193.3145"
+           r="0.5" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path966-2-2-9-4"
+           cx="64.685501"
+           cy="193.3145"
+           r="0.5" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#00000d;stroke-width:0.37100002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path966-9-2-5-8"
+           cx="67.685501"
+           cy="193.3145"
+           r="0.5" />
+      </g>
+      <text
+         transform="scale(0.94459193,1.0586582)"
+         id="text1174"
+         y="167.58908"
+         x="138.51846"
+         style="font-style:normal;font-weight:normal;font-size:2.87048125px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17940508"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.17940508"
+           y="167.58908"
+           x="138.51846"
+           id="tspan1172"
+           sodipodi:role="line">Вид хобби</tspan></text>
+    </g>
+    <g
+       id="g1224"
+       transform="translate(0.1889881,4.8191964)">
+      <rect
+         y="191.92262"
+         x="59.53125"
+         height="6.1421127"
+         width="28.064732"
+         id="rect1176"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         transform="scale(0.99814216,1.0018613)"
+         id="text1180"
+         y="195.5267"
+         x="61.32299"
+         style="font-style:normal;font-weight:normal;font-size:2.85896993px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17868562"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.17868562"
+           y="195.5267"
+           x="61.32299"
+           id="tspan1178"
+           sodipodi:role="line">ссылка на github</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26201719;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1258"
+       width="43.846855"
+       height="15.383901"
+       x="127.07657"
+       y="179.62538" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.73226714px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2332667"
+       x="152.99178"
+       y="158.47656"
+       id="text1296"
+       transform="scale(0.84249755,1.1869471)"><tspan
+         sodipodi:role="line"
+         id="tspan1294"
+         x="152.99178"
+         y="158.47656"
+         style="stroke-width:0.2332667">Девиз и формула успеха</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.18724555;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1298"
+       width="43.598862"
+       height="17.308678"
+       x="127.20057"
+       y="197.80484" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="143.064"
+       y="202.12798"
+       id="text1323"><tspan
+         sodipodi:role="line"
+         id="tspan1321"
+         x="143.064"
+         y="202.12798"
+         style="stroke-width:0.26458332">Цели</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.27314734px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20457171"
+       x="132.73952"
+       y="201.23517"
+       id="text1327"
+       transform="scale(0.96880357,1.032201)"><tspan
+         sodipodi:role="line"
+         id="tspan1325"
+         x="132.73952"
+         y="201.23517"
+         style="stroke-width:0.20457171">* зачёркнуто</tspan><tspan
+         sodipodi:role="line"
+         x="132.73952"
+         y="205.3266"
+         style="stroke-width:0.20457171"
+         id="tspan1329">*подчеркнуто</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1331"
+       width="43.684391"
+       height="30.82501"
+       x="127.15781"
+       y="217.58199" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="138.17834"
+       y="231.51895"
+       id="text1335"><tspan
+         sodipodi:role="line"
+         id="tspan1333"
+         x="138.17834"
+         y="231.51895"
+         style="stroke-width:0.26458332">Тотемное</tspan><tspan
+         sodipodi:role="line"
+         x="138.17834"
+         y="236.81062"
+         style="stroke-width:0.26458332"
+         id="tspan1337">животное</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.3514812px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20946757"
+       x="34.980755"
+       y="127.07788"
+       id="text1085"
+       transform="scale(0.94756623,1.0553352)"><tspan
+         sodipodi:role="line"
+         id="tspan1083"
+         x="34.980755"
+         y="127.07788"
+         style="stroke-width:0.20946757">технологии</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.87954831px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17997177"
+       x="58.870052"
+       y="155.9955"
+       id="text1085-5"
+       transform="scale(0.87132196,1.1476814)"><tspan
+         sodipodi:role="line"
+         id="tspan1083-7"
+         x="58.870052"
+         y="155.9955"
+         style="stroke-width:0.17997177">технологии</tspan></text>
+  </g>
+</svg>
