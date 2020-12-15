@@ -3,30 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <meta name="keywords" content="резюме,программист,портфолио,смирнова,мария,итмо">
     <meta name="description" content="Портфолио студента ИТМО, Смирновой Марии">
-    <link href="css/outlines.css" rel="stylesheet">
     <title>Смирнова Мария - M33011</title>
 </head>
 
 <body>
 <header>
-    <img id="my-photo" src="resources/my-face.jpg" alt="my photo" width="15%">
-    <h1 id="my-name">Смирнова Мария</h1>
-    <p id="header-description">
-        Студент третьего курса университета ИТМО факультета ИТиП.
-        Младший C++ разработчик, моделист.
-    </p>
-    <nav id="main-navigation">
-        <a class="nav-link" href="#about-me">Обо мне</a>
-        <a class="nav-link" href="#projects">Проекты</a>
-        <a class="nav-link" href="#work-experience">Опыт работы</a>
+    <div>
+        <img id="my-photo" src="resources/my-face.jpg" alt="my photo">
+        <div class="container">
+            <h1>Смирнова Мария</h1>
+            <p>
+                Студент третьего курса университета ИТМО факультета ИТиП<br>
+                Младший C++ разработчик, моделист
+            </p>
+        </div>
+    </div>
+    <nav>
+        <a href="#about-me">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a id="most-right" href="#work-experience">Опыт работы</a>
     </nav>
 </header>
 
 <main>
     <div id="main-content">
-        <section class="main-content-section" id="about-me">
+        <section id="about-me">
             <h2 id="about-me-header">Обо мне</h2>
             <p id="about-me-paragraph">
                 Работающий студент. Проживаю в <strong>Санкт-Петербурге</strong>.
@@ -45,7 +51,7 @@
             </dl>
         </section>
 
-        <section class="main-content-section" id="projects">
+        <section id="projects">
             <h2>Проекты</h2>
             <article id="best-project">
                 <div id="best-project-info">
@@ -130,7 +136,7 @@ public enum DatabaseCommands {
             <a id="link-to-github" href="https://github.com/smi-mi">Смотреть все проекты</a>
         </section>
 
-        <section class="main-content-section" id="work-experience">
+        <section id="work-experience">
             <h2>Опыт работы</h2>
             <ul>
                 <li>
@@ -290,7 +296,7 @@ public enum DatabaseCommands {
 
 <footer>
     <div id="contacts">
-        <h4>Контакты</h4>
+        <h2>Контакты</h2>
         <ul>
             <li class="phone">+7(921)763-71-38</li>
             <li class="email">smimi_00@mail.ru</li>

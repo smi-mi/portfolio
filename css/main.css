@@ -1,0 +1,68 @@
+html, body {
+    background-color: #b9ebdf;
+    background-image: url("../resources/backgrounds/asfalt-dark.png");
+    font-family: "Lora", serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", serif;
+}
+header, footer {
+    background-color: #00644e;
+    background-image: url("../resources/backgrounds/foggy-birds.png");
+    color: #f4fefc;
+}
+nav {
+    display: flex;
+}
+nav a, footer ul li, footer a {
+    color: #f4fefc;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+/* TODO: make ::before for contacts ul*/
+footer ul {
+    padding-inline-start: 0;
+}
+footer ul li {
+    list-style-type: none;
+}
+#contacts, #minor-navigation {
+    padding: 10px;
+}
+nav a {
+    flex-basis: auto;
+    flex-grow: 1;
+    background-color: #002f25;
+    text-align: center;
+    margin-right: 2px;
+    padding: 10px;
+}
+#most-right {
+    margin-right: 0;
+}
+#my-photo {
+    border-radius: 50%;
+    max-width: 100%;
+    margin: 20px;
+}
+.container {
+    margin: 10px;
+}
+header .container h1 {
+    font-size: 40px;
+}
+header .container p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+#main-content {
+    margin: 20px 30px 20px 20px;
+}
+section {
+    background-color: #fff9f5;
+    color: #1e0b00;
+}
