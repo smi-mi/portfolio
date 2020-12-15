@@ -23,10 +23,11 @@ nav a, footer ul li, footer a {
 }
 /* TODO: make ::before for contacts ul*/
 footer ul {
-    padding-inline-start: 0;
+    padding-inline-start: 10px;
 }
 footer ul li {
     list-style-type: none;
+    line-height: 150%;
 }
 #contacts, #minor-navigation {
     padding: 10px;
@@ -48,21 +49,50 @@ nav a {
     margin: 20px;
 }
 .container {
-    margin: 10px;
+    padding: 10px 15px 15px 20px;
 }
 header .container h1 {
     font-size: 40px;
+    margin: 0 0 10px 0;
 }
 header .container p {
     font-size: 24px;
     font-weight: 500;
+    margin: 0 0 0 10px;
 }
 
-
+/* main content styles */
 #main-content {
     margin: 20px 30px 20px 20px;
 }
 section {
     background-color: #fff9f5;
     color: #1e0b00;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+section h2 {
+    margin: 0 0 20px 0;
+    text-align: start;
+    font-size: 30px;
+    color: #642600;
+}
+
+#about-me p, #about-me h3, #about-me dl {
+    margin: 0 0 10px 20px;
+}
+#about-me dl {
+    margin-left: 30px;
+}
+#about-me dt {
+    font-style: italic;
+    font-weight: 600;
+}
+#about-me dd {
+    margin: 0 0 10px 30px;
+}
+
+hr {
+    background-color: #ffe5d6;
 }
