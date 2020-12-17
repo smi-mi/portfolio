@@ -85,7 +85,7 @@ header .container p {
     margin: 0 0 0 10px;
 }
 
-/*main grid*/
+/* main styles */
 main {
     box-sizing: border-box;
 }
@@ -94,15 +94,14 @@ main {
     float: left;
 }
 
-/* main content styles */
 #main-sidebar {
     padding: 20px 20px 20px 15px;
-    min-width: 300px;
-    max-width: 30%;
+    min-width: 380px;
+    max-width: 35%;
 }
 #main-content {
     padding: 20px 15px 20px 20px;
-    max-width: 70%;
+    max-width: 65%;
 }
 section {
     background-color: #fff9f5;
@@ -117,6 +116,12 @@ h2 {
     font-size: 30px;
     color: #642600;
 }
+h3 {
+    margin: 0 0 10px 0;
+    text-align: start;
+    font-size: 20px;
+    color: #642600;
+}
 #contacts h2 {
     color: #f4fefc;
     margin-bottom: 10px;
@@ -128,14 +133,47 @@ h2 {
 #about-me dl {
     margin-left: 30px;
 }
-#about-me dt {
+#education dl {
+    margin: 0 0 0 15px;
+}
+dt {
     font-style: italic;
     font-weight: 600;
 }
-#about-me dd {
+dd {
     margin: 0 0 10px 30px;
 }
 
 hr {
     background-color: #ffe5d6;
+}
+
+/* sidebar styles */
+#skills ul li {
+    list-style-type: none;
+}
+#skills ul {
+    margin: 0;
+    padding-inline-start: 15px;
+}
+#skills h4 {
+    position: relative;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.level-label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #907260;
+    font-size: 14px;
+}
+.level-bar {
+    height: 15px;
+    background-color: #ffe5d6;
+    margin-bottom: 15px;
+}
+.level {
+    height: 100%;
+    background-color: #3a9984;
 }

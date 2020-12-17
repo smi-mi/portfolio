@@ -72,7 +72,9 @@
       <workItem from="1607854040842" duration="17361000" />
       <workItem from="1608027955291" duration="21931000" />
       <workItem from="1608123129504" duration="1335000" />
-      <workItem from="1608155155961" duration="7524000" />
+      <workItem from="1608155155961" duration="7560000" />
+      <workItem from="1608206050733" duration="1950000" />
+      <workItem from="1608214876249" duration="4033000" />
     </task>
     <task id="LOCAL-00001" summary="added css file">
       <created>1607543691801</created>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608064343417</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added grid to header, footer and base grid to main">
+      <created>1608163512269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608163512269</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +154,8 @@
     <MESSAGE value="filled page" />
     <MESSAGE value="set styles for header and footer" />
     <MESSAGE value="set style for about-me" />
-    <option name="LAST_COMMIT_MESSAGE" value="set style for about-me" />
+    <MESSAGE value="added grid to header, footer and base grid to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="added grid to header, footer and base grid to main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="202" y="22" key="#Images" timestamp="1608048919102">
@@ -156,26 +166,26 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1218.720@0.0.1218.720" timestamp="1607540792848" />
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1608064342275">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1608163511413">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1608064342275" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1608163511413" />
     <state x="390" y="119" key="FileChooserDialogImpl" timestamp="1607861836327">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="390" y="119" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1607861836327" />
-    <state x="90" y="0" key="SettingsEditor" timestamp="1608061090690">
+    <state x="90" y="0" key="SettingsEditor" timestamp="1608218913845">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1608061090690" />
+    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1608218913845" />
     <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1607875049146">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1607875049146" />
-    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1608155155521">
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1608214876903">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1608155155521" />
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1608214876903" />
     <state x="347" y="152" key="git4idea.merge.GitPullDialog" timestamp="1607543729507">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
