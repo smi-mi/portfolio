@@ -69,20 +69,18 @@
                     </p>
                 </div>
                 <pre><code id="best-project-code">
-public enum DatabaseCommands {
-
-    CREATE_DATABASE {
-        public DatabaseCommand getCommand
-                (ExecutionEnvironment env, String... args)
-        {
-            if (args.length < 2) {
-                throw new IllegalArgumentException
-                    ("For CREATE_DATABASE command at least one arguments required: database name.");
-            }
-            return new CreateDatabaseCommand(env, DatabaseImpl::create, args[1]);
+public class CachingTable implements Table {
+    &lt;...&gt;
+    @Override
+    public String read(String objectKey)
+            throws DatabaseException
+    {
+        String cacheValue = this.cache.get(objectKey);
+        if (cacheValue != null) {
+            return cacheValue;
         }
-    },
-    ...
+        return this.table.read(objectKey);
+    }
 }
                 </code></pre>
             </article>
@@ -104,6 +102,7 @@ public enum DatabaseCommands {
                         Реализация регистрации и авторизации с валидацией данных.
                         Настройка страницы админа.
                     </p>
+                    <hr>
                 </li>
                 <li id="project-2">
                     <a href="">
@@ -118,6 +117,7 @@ public enum DatabaseCommands {
                         получения статистики сервера об изменениях после определенного времени.
                         Проект задокументирован с помощью <i>swagger</i>.
                     </p>
+                    <hr>
                 </li>
                 <li id="project-3">
                     <a href="https://github.com/smi-mi/OOP">
@@ -131,9 +131,10 @@ public enum DatabaseCommands {
                         Проект представляет собой <i>dll-библиотеку</i>.
                         Может быть расширен с помощью добавления новых персонажей.
                     </p>
+                    <hr>
                 </li>
             </ul>
-            <a id="link-to-github" href="https://github.com/smi-mi">Смотреть все проекты</a>
+            <div id="link-to-github"><a href="https://github.com/smi-mi">Смотреть все проекты</a></div>
         </section>
 
         <section class="container" id="work-experience">

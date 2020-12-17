@@ -146,13 +146,14 @@ dd {
 
 hr {
     background-color: #ffe5d6;
+    clear: both;
 }
 
 /* sidebar styles */
-aside ul li, #work-experience ul li {
+aside ul li, #work-experience ul li, #projects ul li {
     list-style-type: none;
 }
-aside ul, #work-experience ul {
+aside ul, #work-experience ul, #projects ul {
     margin: 0;
     padding-inline-start: 15px;
 }
@@ -178,10 +179,37 @@ aside ul, #work-experience ul {
     background-color: #3a9984;
 }
 
-#work-experience a {
+#work-experience a, #projects a {
     text-decoration-color: #642600;
 }
-#work-experience h4 {
+#projects pre {
+    display: block;
+    clear: both;
+    color: #001e18;
+    background-color: #f4fefc;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+}
+#projects img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+#projects p {
+    margin: 0;
+}
+#link-to-github {
+    margin: 30px 20px 20px;
+    text-align: center;
+}
+#link-to-github a {
+    background-color: #3a9984;
+    text-align: center;
+    padding: 10px;
+    color: #f4fefc;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+#work-experience h4, #projects h4 {
     color: #907260;
     font-size: 18px;
     margin: 0 0 5px 10px;
