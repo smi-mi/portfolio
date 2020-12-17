@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4079a2e-e5b2-492a-b02f-9a9617e46fa0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1608123129504" duration="1335000" />
       <workItem from="1608155155961" duration="7560000" />
       <workItem from="1608206050733" duration="1950000" />
-      <workItem from="1608214876249" duration="8363000" />
+      <workItem from="1608214876249" duration="8480000" />
     </task>
     <task id="LOCAL-00001" summary="added css file">
       <created>1607543691801</created>
@@ -160,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608220801981</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="all finished">
+      <created>1608223263897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608223263897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +184,8 @@
     <MESSAGE value="styled education section and skills section" />
     <MESSAGE value="styled all sidebar" />
     <MESSAGE value="styled work-experience section" />
-    <option name="LAST_COMMIT_MESSAGE" value="styled work-experience section" />
+    <MESSAGE value="all finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="all finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="202" y="22" key="#Images" timestamp="1608048919102">
