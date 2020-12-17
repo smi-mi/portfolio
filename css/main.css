@@ -149,10 +149,10 @@ hr {
 }
 
 /* sidebar styles */
-aside ul li {
+aside ul li, #work-experience ul li {
     list-style-type: none;
 }
-aside ul {
+aside ul, #work-experience ul {
     margin: 0;
     padding-inline-start: 15px;
 }
@@ -176,6 +176,19 @@ aside ul {
 .level {
     height: 100%;
     background-color: #3a9984;
+}
+
+#work-experience a {
+    text-decoration-color: #642600;
+}
+#work-experience h4 {
+    color: #907260;
+    font-size: 18px;
+    margin: 0 0 5px 10px;
+}
+.date {
+    color: #907260;
+    font-size: 18px;
 }
 
 #hobbies ul li, #plan ul li {
