@@ -1,0 +1,245 @@
+html, body {
+    background-color: #b9ebdf;
+    background-image: url("../resources/backgrounds/asfalt-dark.png");
+    font-family: "Lora", serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", serif;
+}
+header, footer {
+    background-color: #00644e;
+    background-image: url("../resources/backgrounds/foggy-birds.png");
+    color: #f4fefc;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a, footer ul li, footer a {
+    color: #f4fefc;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+/* TODO: make ::before for contacts ul*/
+footer ul {
+    margin: 0;
+}
+#contacts ul {
+    padding-inline-start: 15px;
+}
+footer ul li {
+    list-style-type: none;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1px;
+}
+#contacts, #minor-navigation {
+    padding: 10px;
+}
+#minor-navigation {
+    margin-top: 50px;
+}
+nav a {
+    flex-basis: auto;
+    flex-grow: 1;
+    background-color: #002f25;
+    text-align: center;
+    margin-right: 2px;
+    padding: 10px;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+#my-photo {
+    border-radius: 50%;
+    max-width: 100%;
+    margin: 20px;
+    float: left;
+}
+.container {
+    padding: 10px 15px 15px 20px;
+}
+header .container {
+    float: left;
+    padding-top: 25px;
+    padding-left: 0;
+}
+.float-container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+header .container h1 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+header .container p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+}
+
+/* main styles */
+main {
+    box-sizing: border-box;
+}
+#main-sidebar, #main-content {
+    box-sizing: border-box;
+    float: left;
+}
+
+#main-sidebar {
+    padding: 20px 20px 20px 15px;
+    min-width: 380px;
+    max-width: 35%;
+}
+#main-content {
+    padding: 20px 15px 20px 20px;
+    max-width: 65%;
+}
+section {
+    background-color: #fff9f5;
+    color: #1e0b00;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+h2 {
+    margin: 0 0 20px 0;
+    text-align: start;
+    font-size: 30px;
+    color: #642600;
+}
+h3 {
+    margin: 0 0 10px 0;
+    text-align: start;
+    font-size: 20px;
+    color: #642600;
+}
+#contacts h2 {
+    color: #f4fefc;
+    margin-bottom: 10px;
+}
+
+#about-me p, #about-me h3, #about-me dl {
+    margin: 0 0 10px 20px;
+}
+#about-me dl {
+    margin-left: 30px;
+}
+#education dl {
+    margin: 0 0 0 15px;
+}
+dt {
+    font-style: italic;
+    font-weight: 600;
+}
+dd {
+    margin: 0 0 10px 30px;
+}
+
+hr {
+    background-color: #ffe5d6;
+    clear: both;
+}
+
+/* sidebar styles */
+aside ul li, #work-experience ul li, #projects ul li {
+    list-style-type: none;
+}
+aside ul, #work-experience ul, #projects ul {
+    margin: 0;
+    padding-inline-start: 15px;
+}
+#skills h4 {
+    position: relative;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.level-label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #907260;
+    font-size: 14px;
+}
+.level-bar {
+    height: 15px;
+    background-color: #ffe5d6;
+    margin-bottom: 15px;
+}
+.level {
+    height: 100%;
+    background-color: #3a9984;
+}
+
+#work-experience a, #projects a {
+    text-decoration-color: #642600;
+}
+#projects pre {
+    display: block;
+    clear: both;
+    color: #001e18;
+    background-color: #f6fefc;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+}
+#projects img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+#projects p {
+    margin: 0;
+}
+#link-to-github {
+    margin: 30px 20px 20px;
+    text-align: center;
+}
+#link-to-github a {
+    background-color: #3a9984;
+    text-align: center;
+    padding: 10px;
+    color: #f4fefc;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+#work-experience h4, #projects h4 {
+    color: #907260;
+    font-size: 18px;
+    margin: 0 0 5px 10px;
+}
+.date {
+    color: #907260;
+    font-size: 18px;
+}
+
+#hobbies ul li, #plan ul li {
+    list-style-type: circle;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+blockquote {
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
+blockquote p {
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #ffe5d6;
+    padding-left: 10px;
+}
+blockquote cite {
+    font-size: 0.9em;
+    color: #907260;
+    padding-left: 15px;
+}
+#success-formula {
+    line-height: 1.5em;
+    margin-left: 30px;
+}

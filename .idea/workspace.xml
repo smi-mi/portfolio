@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4079a2e-e5b2-492a-b02f-9a9617e46fa0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,10 +42,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/task8-database-server-smi-mi" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79217\Desktop\educ\web\portfolio\resources\backgrounds" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,7 +67,12 @@
       <workItem from="1607779334235" duration="402000" />
       <workItem from="1607780027938" duration="1200000" />
       <workItem from="1607801800440" duration="8817000" />
-      <workItem from="1607854040842" duration="17191000" />
+      <workItem from="1607854040842" duration="17361000" />
+      <workItem from="1608027955291" duration="21931000" />
+      <workItem from="1608123129504" duration="1335000" />
+      <workItem from="1608155155961" duration="7560000" />
+      <workItem from="1608206050733" duration="1950000" />
+      <workItem from="1608214876249" duration="8480000" />
     </task>
     <task id="LOCAL-00001" summary="added css file">
       <created>1607543691801</created>
@@ -98,7 +109,63 @@
       <option name="project" value="LOCAL" />
       <updated>1607865443780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="filled page">
+      <created>1607875040697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607875040697</updated>
+    </task>
+    <task id="LOCAL-00007" summary="set styles for header and footer">
+      <created>1608049159667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608049159667</updated>
+    </task>
+    <task id="LOCAL-00008" summary="set style for about-me">
+      <created>1608064343417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608064343417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added grid to header, footer and base grid to main">
+      <created>1608163512269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608163512269</updated>
+    </task>
+    <task id="LOCAL-00010" summary="styled education section and skills section">
+      <created>1608218944373</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608218944373</updated>
+    </task>
+    <task id="LOCAL-00011" summary="styled all sidebar">
+      <created>1608220243575</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608220243575</updated>
+    </task>
+    <task id="LOCAL-00012" summary="styled work-experience section">
+      <created>1608220801981</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608220801981</updated>
+    </task>
+    <task id="LOCAL-00013" summary="all finished">
+      <created>1608223263897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608223263897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,33 +177,45 @@
     <MESSAGE value="added my face pic" />
     <MESSAGE value="made page skeleton" />
     <MESSAGE value="added info about projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added info about projects" />
+    <MESSAGE value="filled page" />
+    <MESSAGE value="set styles for header and footer" />
+    <MESSAGE value="set style for about-me" />
+    <MESSAGE value="added grid to header, footer and base grid to main" />
+    <MESSAGE value="styled education section and skills section" />
+    <MESSAGE value="styled all sidebar" />
+    <MESSAGE value="styled work-experience section" />
+    <MESSAGE value="all finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="all finished" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="202" y="22" key="#Images" timestamp="1608048919102">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="202" y="22" key="#Images/0.0.1218.720@0.0.1218.720" timestamp="1608048919102" />
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607540792848">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="65" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1218.720@0.0.1218.720" timestamp="1607540792848" />
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1607865442631">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1608223262436">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1607865442631" />
-    <state x="390" y="119" key="FileChooserDialogImpl" timestamp="1607861836327">
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1608223262436" />
+    <state x="390" y="119" key="FileChooserDialogImpl" timestamp="1608222778198">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="390" y="119" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1607861836327" />
-    <state x="90" y="0" key="SettingsEditor" timestamp="1607855338766">
+    <state x="390" y="119" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1608222778198" />
+    <state x="90" y="0" key="SettingsEditor" timestamp="1608218913845">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1607855338766" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1607814805317">
+    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1608218913845" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1607875049146">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1607814805317" />
-    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1607854049503">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1607875049146" />
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1608214876903">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1607854049503" />
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1608214876903" />
     <state x="347" y="152" key="git4idea.merge.GitPullDialog" timestamp="1607543729507">
       <screen x="0" y="0" width="1218" height="720" />
     </state>

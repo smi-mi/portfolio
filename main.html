@@ -3,32 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <meta name="keywords" content="резюме,программист,портфолио,смирнова,мария,итмо">
     <meta name="description" content="Портфолио студента ИТМО, Смирновой Марии">
-    <link href="css/outlines.css" rel="stylesheet">
     <title>Смирнова Мария - M33011</title>
 </head>
 
 <body>
 <header>
-    <img id="my-photo" src="resources/my-face.jpg" alt="my photo" width="15%">
-    <h1 id="my-name">Смирнова Мария</h1>
-    <p id="header-description">
-        Студент третьего курса университета ИТМО факультета ИТиП.
-        Младший C++ разработчик, моделист.
-    </p>
-    <nav id="main-navigation">
-        <a class="nav-link" href="#about-me">Обо мне</a>
-        <a class="nav-link" href="#projects">Проекты</a>
-        <a class="nav-link" href="#work-experience">Опыт работы</a>
+    <div class="float-container">
+        <img id="my-photo" src="resources/my-face.jpg" alt="my photo">
+        <div class="container">
+            <h1>Смирнова Мария</h1>
+            <p>
+                Студент третьего курса университета ИТМО факультета ИТиП<br>
+                Младший C++ разработчик, моделист
+            </p>
+        </div>
+    </div>
+    <nav>
+        <a href="#about-me">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a id="most-right" href="#work-experience">Опыт работы</a>
     </nav>
 </header>
 
-<main>
+<main class="float-container">
     <div id="main-content">
-        <section class="main-content-section" id="about-me">
-            <h2 id="about-me-header">Обо мне</h2>
-            <p id="about-me-paragraph">
+        <section class="container" id="about-me">
+            <h2>Обо мне</h2>
+            <p>
                 Работающий студент. Проживаю в <strong>Санкт-Петербурге</strong>.
                 По окончании обучения готова переехать в маленький, тихий город,
                 <em>например на берегу моря</em>.
@@ -45,7 +51,7 @@
             </dl>
         </section>
 
-        <section class="main-content-section" id="projects">
+        <section class="container" id="projects">
             <h2>Проекты</h2>
             <article id="best-project">
                 <div id="best-project-info">
@@ -63,20 +69,18 @@
                     </p>
                 </div>
                 <pre><code id="best-project-code">
-public enum DatabaseCommands {
-
-    CREATE_DATABASE {
-        public DatabaseCommand getCommand
-                (ExecutionEnvironment env, String... args)
-        {
-            if (args.length < 2) {
-                throw new IllegalArgumentException
-                    ("For CREATE_DATABASE command at least one arguments required: database name.");
-            }
-            return new CreateDatabaseCommand(env, DatabaseImpl::create, args[1]);
+public class CachingTable implements Table {
+    &lt;...&gt;
+    @Override
+    public String read(String objectKey)
+            throws DatabaseException
+    {
+        String cacheValue = this.cache.get(objectKey);
+        if (cacheValue != null) {
+            return cacheValue;
         }
-    },
-    ...
+        return this.table.read(objectKey);
+    }
 }
                 </code></pre>
             </article>
@@ -98,6 +102,7 @@ public enum DatabaseCommands {
                         Реализация регистрации и авторизации с валидацией данных.
                         Настройка страницы админа.
                     </p>
+                    <hr>
                 </li>
                 <li id="project-2">
                     <a href="">
@@ -112,6 +117,7 @@ public enum DatabaseCommands {
                         получения статистики сервера об изменениях после определенного времени.
                         Проект задокументирован с помощью <i>swagger</i>.
                     </p>
+                    <hr>
                 </li>
                 <li id="project-3">
                     <a href="https://github.com/smi-mi/OOP">
@@ -125,42 +131,45 @@ public enum DatabaseCommands {
                         Проект представляет собой <i>dll-библиотеку</i>.
                         Может быть расширен с помощью добавления новых персонажей.
                     </p>
+                    <hr>
                 </li>
             </ul>
-            <a id="link-to-github" href="https://github.com/smi-mi">Смотреть все проекты</a>
+            <div id="link-to-github"><a href="https://github.com/smi-mi">Смотреть все проекты</a></div>
         </section>
 
-        <section class="main-content-section" id="work-experience">
+        <section class="container" id="work-experience">
             <h2>Опыт работы</h2>
             <ul>
                 <li>
                     <a href="https://kronshtadt.ru/"><h3>ООО "Кронштадт - навигационые системы будущего"</h3></a>
                     <h4>моделист</h4>
-                    <span>
-                        <time datetime="2020-08">август 2020</time>-<time>настоящее время</time>
+                    <span class="date">
+                        <time datetime="2020-08">август 2020</time> - <time>настоящее время</time>
                     </span>
                     <p>
                         Разработка на C++/boost. Реализация утилитарных алгоритмов.
                         Сериализация/десериализация XML.
                     </p>
+                    <hr>
                 </li>
                 <li>
                     <a href="http://sim-lab.ru/"><h3>ООО "Лаборатория компьютерного моделирования"</h3></a>
                     <h4>младший инженер-разработчик</h4>
-                    <span>
-                        <time datetime="2020-02">февраль 2020</time>-<time datetime="2020-12">настоящее время</time>
+                    <span class="date">
+                        <time datetime="2020-02">февраль 2020</time> - <time datetime="2020-12">настоящее время</time>
                     </span>
                     <p>
                         Разработка на C++/rest sdk.
                         Исправление багов и реализация платформонезависимости.
                         Реализация Rest API. Работа с ОС Linux и Windows.
                     </p>
+                    <hr>
                 </li>
                 <li>
                     <a href="https://spb.repetit.ru/"><h3>Ассоциация репетиторов</h3></a>
                     <h4>репетитор по математике, физике, информатике</h4>
-                    <span>
-                        <time datetime="2019-02">февраль 2019</time>-<time datetime="2020-04">апрель 2020</time>
+                    <span class="date">
+                        <time datetime="2019-02">февраль 2019</time> - <time datetime="2020-04">апрель 2020</time>
                     </span>
                     <p>
                         Работы с детьми разного возраста и уровня на дому. Получены навыки
@@ -173,38 +182,52 @@ public enum DatabaseCommands {
     </div>
 
     <aside id="main-sidebar">
-        <section id="education">
+        <section class="container" id="education">
             <h2>Образование</h2>
-            <ul>
-                <li>Университет ИТМО</li>
-                <li>Факультет информационных технологий и программирования</li>
-                <li>Направление информационные системы и интернет-технологии</li>
-                <li>Курс третий</li>
-            </ul>
+            <dl>
+                <dt>Университет</dt>
+                <dd>Университет ИТМО</dd>
+                <dt>Факультет</dt>
+                <dd>Информационных технологий и программирования</dd>
+                <dt>Направление</dt>
+                <dd>Информационные системы и интернет-технологии</dd>
+                <dt>Курс</dt>
+                <dd>Третий</dd>
+            </dl>
         </section>
-        <section id="skills">
+        <section class="container" id="skills">
             <section id="hard-skills">
                 <h3>Hard skills</h3>
                 <ul>
                     <li>
                         <h4>C++<span class="level-label">Выше среднего</span></h4>
-                        <div class="level-bar"></div>
+                        <div class="level-bar">
+                            <div class="level" style="width: 80%"></div>
+                        </div>
                     </li>
                     <li>
                         <h4>Java<span class="level-label">Выше среднего</span></h4>
-                        <div class="level-bar"></div>
+                        <div class="level-bar">
+                            <div class="level" style="width: 70%"></div>
+                        </div>
                     </li>
                     <li>
                         <h4>Python/Django<span class="level-label">Средний</span></h4>
-                        <div class="level-bar"></div>
+                        <div class="level-bar">
+                            <div class="level" style="width: 55%"></div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Администрирование Linux<span class="level-label">Выше среднего</span></h4>
-                        <div class="level-bar"></div>
+                        <h4>Linux<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar">
+                            <div class="level" style="width: 70%"></div>
+                        </div>
                     </li>
                     <li>
                         <h4>Математика<span class="level-label">Средний</span></h4>
-                        <div class="level-bar"></div>
+                        <div class="level-bar">
+                            <div class="level" style="width: 60%"></div>
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -213,24 +236,39 @@ public enum DatabaseCommands {
                 <h3>Soft skills</h3>
                 <ul>
                     <li>
-                        <h4>Английский язык<span>B1+</span></h4>
+                        <h4>Английский язык<span class="level-label">B1+</span></h4>
+                        <div class="level-bar">
+                            <div class="level" style="width: 60%"></div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Эмоциональный интеллект<span>Высокий</span></h4>
+                        <h4>Эмоциональный интеллект<span class="level-label">Высокий</span></h4>
+                        <div class="level-bar">
+                            <div class="level" style="width: 90%"></div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Тайм-менеджмент<span>Средний</span></h4>
+                        <h4>Тайм-менеджмент<span class="level-label">Средний</span></h4>
+                        <div class="level-bar">
+                            <div class="level" style="width: 55%"></div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Командная работа<span>Выше среднего</span></h4>
+                        <h4>Командная работа<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar">
+                            <div class="level" style="width: 70%"></div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Гибкость и креативность<span>Выше среднего</span></h4>
+                        <h4>Гибкость и креативность<span class="level-label">Выше среднего</span></h4>
+                        <div class="level-bar">
+                            <div class="level" style="width: 70%"></div>
+                        </div>
                     </li>
                 </ul>
             </section>
         </section>
-        <section id="hobbies">
+        <section class="container" id="hobbies">
             <h2>Хобби</h2>
             <ul>
                 <li>Рисование</li>
@@ -240,7 +278,7 @@ public enum DatabaseCommands {
                 <li>Психология</li>
             </ul>
         </section>
-        <section id="qoute-and-success-formula">
+        <section class="container" id="quote-and-success-formula">
             <section>
                 <h3>Любимая цитата</h3>
                 <blockquote>
@@ -252,12 +290,12 @@ public enum DatabaseCommands {
             <section>
                 <h3>Формула успеха</h3>
                 <p id="success-formula">
-                    0.99<sup>365</sup>=0.026<br>
-                    1.01<sup>365</sup>=37.78
+                    0.99<sup>365</sup> = 0.026<br>
+                    1.01<sup>365</sup> = 37.78
                 </p>
             </section>
         </section>
-        <section id="plan">
+        <section class="container" id="plan">
             <h2>Жизненные цели</h2>
             <ul>
                 <li><del datetime="2018-06">Окончить школу</del></li>
@@ -267,9 +305,9 @@ public enum DatabaseCommands {
                 <li><ins datetime="2020-09">Освоить кройку и шитьё</ins></li>
             </ul>
         </section>
-        <section id="totem-animal">
-            <h2>Тотемное животное - хомяк</h2>
-            <pre>
+        <section class="container" id="totem-animal">
+            <h2>Тотемное животное - хомячок</h2>
+            <p><pre>
      (`-`;-"```"-;`-`)
       \.*         *./
      /              \
@@ -283,14 +321,14 @@ public enum DatabaseCommands {
 :  `.    ```   ```    .`  :
  `.   `-.          .-`  .`
    (__.'  ```````` `.__)
-            </pre>
+            </pre></p>
         </section>
     </aside>
 </main>
 
 <footer>
     <div id="contacts">
-        <h4>Контакты</h4>
+        <h2>Контакты</h2>
         <ul>
             <li class="phone">+7(921)763-71-38</li>
             <li class="email">smimi_00@mail.ru</li>
