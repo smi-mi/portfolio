@@ -209,6 +209,15 @@ aside ul, #work-experience ul, #projects ul {
     text-decoration-line: none;
     font-size: 20px;
 }
+#contacts-button {
+    background-color: #f6fefc;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #001e18;
+    font-size: 20px;
+    border-radius: 5px;
+}
 #work-experience h4, #projects h4 {
     color: #907260;
     font-size: 18px;
